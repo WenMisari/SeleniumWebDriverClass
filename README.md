@@ -6,5 +6,5 @@ Install Git
 
 Steps:
 - Open CMD window
-- Go to the folder where we want to clone the project
+- Go to the folder where we want to clone the projects
 - Write 'git clone https://github.com/WenMisari/SeleniumWebDriverClass.git'
