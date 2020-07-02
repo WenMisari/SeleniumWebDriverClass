@@ -1,5 +1,5 @@
 # SeleniumWebDriverClass
-Repository for class projects
+Repository for projects
 
 Requirements:
 Install Git
