@@ -25,12 +25,13 @@ public class AuthenticationPage {
 		this.driver = driver;
 	}
 	
-	//something new
+	//Ingresar el email para crear la cuenta, debe cambiar cada que se ejecute
 	public void insertEmailCreateAccount(String email) {
 		driver.findElement(signInTextBox).sendKeys(email);
 		driver.findElement(createAccountButton).click();
 	}
 	
+	//Ingresar la informacion personal del usuario
 	public void insertUserPersonalInformation(String firstname, String lastname, String pass, String day, 
 			String month, String year) {
 		driver.findElement(mrsRadioButton).click();
@@ -45,6 +46,7 @@ public class AuthenticationPage {
 		yearOfBirth.selectByValue(year);
 	}
 	
+	//Ingresar los datos de direccion del usuario, usar la pagina de ayuda para ciertos datos
 	public void insertUserAddress(String address, String city, String state, 
 			String zipcode, String mobile, String alias) {
 		driver.findElement(addressField).sendKeys(address);
