@@ -25,6 +25,7 @@ public class AuthenticationPage {
 		this.driver = driver;
 	}
 	
+	//something new
 	public void insertEmailCreateAccount(String email) {
 		driver.findElement(signInTextBox).sendKeys(email);
 		driver.findElement(createAccountButton).click();
