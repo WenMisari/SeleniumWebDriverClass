@@ -26,6 +26,7 @@ public class HomePage {
 		driver.findElement(logoLocator).click();
 	}
 	
+	//Agregar la prenda al carrito de compras, se usa hoverOn
 	public void addClotheToTheShopCart() {
 		Actions action = new Actions(driver);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
